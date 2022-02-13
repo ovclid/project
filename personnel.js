@@ -1,6 +1,6 @@
 var info = [
     { name: "나", birth_year: 1978, birth_month: 2, birth_day: 10 },
-    { name: "아내", birth_year: 1980, birth_month: 10, birth_day: 03 },
+    { name: "아내", birth_year: 1982, birth_month: 10, birth_day: 03 },
     { name: "아들", birth_year: 2011, birth_month: 11, birth_day: 17 },
 
 ];
