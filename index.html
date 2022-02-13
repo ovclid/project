@@ -1,20 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <script type="text/javascript" src="personnel.js"></script>
-    <link rel="stylesheet" href="personnel.css">
-
+    <title>Password</title>
+    <style>
+        body {
+            background-color: lightblue;
+            padding: 30px;
+        }
+    </style>
+    <script>
+        function checkPassword() {
+            var password = document.getElementById("passwordBox");
+            var passwordText = password.value;
+            if (passwordText == "7169") {
+                return true;
+            }
+            return false;
+        }
+    </script>
 </head>
+
 <body>
-    <div class = "basic_info">
-        <script>
-            draw_table();
-        </script>
+    <div style="padding:50px;">
+    <p><input id="passwordBox" type="password" />
+    <a href="personnel.html" onclick="return checkPassword() ">
+        click
+    </a>
+    </p>
     </div>
 </body>
+
 </html>
