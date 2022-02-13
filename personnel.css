@@ -3,8 +3,26 @@ table{
     border-spacing: 0;
 }
 
-th, td{
-    padding: 10px 20px;
+th {
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
+}
+
+td{
     border: 1px solid #000;
     text-align: center;
+    padding: 2px 2px; 
+    font-size: 10px;
 }
+
+.basic_info {
+    margin :0px;
+    height : 200px;
+    width: 387px;
+    padding:10px;
+    border: 1px dotted red;
+}
+
+
